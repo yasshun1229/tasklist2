@@ -1,7 +1,7 @@
 <h1><%= @task.id %>のタスク詳細ページ</h1>
 
-<p><%= @task.content %> : <%= @task.status %></p>
+<p><%= @task.content %></p>
 
 <%= link_to "トップページに戻る", root_path %>
 <%= link_to "編集", edit_task_path %>
-<%= link_to "削除", @task, method: :delete, data: { confirm: "削除してもよろしいですいあ？"}  %>
+<%= link_to "削除", @task, method: :delete, data: { confirm: "削除してもよろしいですいか？"}  %>
